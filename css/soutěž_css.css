@@ -1,0 +1,102 @@
+/*Tohle neměnit*/
+html {
+  box-sizing: border-box;
+  cursor: url("h.jpg"), auto;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*Komentáře - Tahle zpráva nijak neovlivní formát*/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+
+/*pozadí*/
+body {
+  background-color: #459612;
+  max-width: auto;
+  min-width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article {
+  background-color: rgba(223, 190, 241, 0.932);
+  max-width: 960px;
+  min-width: 256px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 8px;
+  font-family: Arial;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  background-color: rgb(27, 38, 194);
+  color: rgb(190, 175, 106);
+  padding-left: 10px;
+  border-radius: 0px;
+}
+
+section {
+  background-color: rgb(121, 241, 110);
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  border: auto;
+}
+
+
+
+/* texty */
+section h2 {
+  color: #000001;
+  font-size: 28px;
+}
+
+section li {
+  color: #000000;
+}
+
+/*odkaz, obrázek a linka*/
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(59, 12, 12);
+}
+
+nav a {
+  color: #c10ad1;
+  font-size: 24px;
+}
+
+hr {
+  width: 100%;
+  color: rgb(255, 255, 255);
+}
+
+img {
+  margin-left: 50;
+  margin-right: auto;
+  display: block;
+  opacity: 0.5;
+}
+
+img:hover {
+  opacity: 1;
+}
