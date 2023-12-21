@@ -84,6 +84,7 @@ a {
 nav a {
   color: #c10ad1;
   font-size: 24px;
+  opacity: 0.7;
 }
 
 hr {
